@@ -112,16 +112,7 @@ body {
         border-top: 4px solid $twitter-color;
     }
     & .card3 {
-        background: linear-gradient(
-            to right,
-            $instagram-grdient-from,
-            $instagram-grdient-to
-        );
-        // padding: 0;
-        padding-top: 4px;
-        & .follower-card-duplicate {
-            background-color: white;
-        }
+        border-top: 4px solid $instagram-grdient-to;
     }
     & .card4 {
         border-top: 4px solid $youtube-color;

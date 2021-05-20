@@ -77,10 +77,7 @@ body {
   .followers .card2 {
     border-top: 4px solid #1ca0f2; }
   .followers .card3 {
-    background: linear-gradient(to right, #fdc468, #df4996);
-    padding-top: 4px; }
-    .followers .card3 .follower-card-duplicate {
-      background-color: white; }
+    border-top: 4px solid #df4996; }
   .followers .card4 {
     border-top: 4px solid #c4032a; }
 
