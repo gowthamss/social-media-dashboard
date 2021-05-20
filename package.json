@@ -1,0 +1,23 @@
+{
+    "name": "social-media-dashboard-with-theme-switcher-master",
+    "version": "1.0.0",
+    "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o css/ --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gowthamss/social-media-dashboard-with-theme-switch.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gowthamss/social-media-dashboard-with-theme-switch/issues"
+    },
+    "homepage": "https://github.com/gowthamss/social-media-dashboard-with-theme-switch#readme",
+    "devDependencies": {
+        "node-sass": "^6.0.0"
+    }
+}

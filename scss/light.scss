@@ -1,0 +1,69 @@
+@import "./variables.scss";
+body {
+    background: white;
+}
+
+.bg-pattern {
+    background: $light-theme-bg-pattern;
+}
+
+.header {
+    & .dashboard {
+        & .title {
+            color: $light-theme-primary-text-color;
+        }
+        & .total-followers,
+        & .theme-mode {
+            color: $light-theme-secondary-text-color;
+        }
+    }
+    & .theme {
+        & .theme-mode {
+            color: $light-theme-secondary-text-color;
+        }
+    }
+}
+
+.overview-title {
+    color: $light-theme-secondary-text-color;
+}
+
+.followers .followers-card,
+.overview .overview-card {
+    background: $light-theme-card-background;
+}
+
+// Section 2
+.followers {
+    & .follower-count {
+        & span:first-of-type {
+            color: $light-theme-primary-text-color;
+        }
+        & span:last-of-type {
+            color: $light-theme-secondary-text-color;
+        }
+    }
+    & .profile {
+        & .username {
+            color: $light-theme-secondary-text-color;
+        }
+    }
+}
+
+// Section 3
+.overview {
+    & .overview-card {
+        & .views-likes-tweets {
+            & p {
+                color: $light-theme-secondary-text-color;
+            }
+            & h1 {
+                color: $light-theme-primary-text-color;
+            }
+        }
+    }
+}
+
+.attribution a {
+    color: $primary-bright-red-color;
+}

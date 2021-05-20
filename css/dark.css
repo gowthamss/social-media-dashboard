@@ -1,0 +1,41 @@
+body {
+  background: black; }
+
+.bg-pattern {
+  background: #1f212e;
+  opacity: 0.6; }
+
+.header .dashboard .title {
+  color: white; }
+
+.header .dashboard .total-followers,
+.header .dashboard .theme-mode {
+  color: #8b97c6; }
+
+.header .theme .theme-mode {
+  color: #8b97c6; }
+
+.overview-title {
+  color: #8b97c6; }
+
+.followers .followers-card,
+.overview .overview-card {
+  background: #252a41; }
+
+.followers .follower-count span:first-of-type {
+  color: white; }
+
+.followers .follower-count span:last-of-type {
+  color: #8b97c6; }
+
+.followers .profile .username {
+  color: #8b97c6; }
+
+.overview .overview-card .views-likes-tweets p {
+  color: #8b97c6; }
+
+.overview .overview-card .views-likes-tweets h1 {
+  color: white; }
+
+.attribution a {
+  color: #1db489; }
