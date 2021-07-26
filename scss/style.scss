@@ -219,7 +219,7 @@ input[type="checkbox"] {
 .attribution {
     font-size: 11px;
     text-align: center;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
@@ -265,16 +265,17 @@ input[type="checkbox"] {
 @media (min-width: $medium-display) and (max-width: $desktop) {
     body {
         height: 100vh;
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
-        // padding: 3%;
+        padding: 3%;
     }
     .bg-pattern {
         height: 30vh;
     }
     .container {
         width: 80vw;
+        padding-bottom: 2rem
     }
     .header {
         @include flex-default(space-between, center, row);
